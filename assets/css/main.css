@@ -1,0 +1,118 @@
+/* reset */
+*{
+	font-family: 'Roboto';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* settings */
+.container{
+	padding: 0 15px;
+}
+.btn{
+	padding: 10px;
+	background: hotpink;
+	color: #fff;
+	display: inline-block;
+}
+/* header */
+header{
+	margin-bottom: 50px;
+}
+.header__wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__right{
+	display: flex;
+	gap: 15px;
+}
+.logo{
+	font-weight: 900;
+	color: tomato;
+	font-size: 30px;
+}
+/**/
+.person_drop{
+	flex-direction: column;
+	display: none;
+}
+.person_exit{
+	font-size: 20px;
+}
+.person_profile{
+	font-size: 20px;
+}
+.person_settings{
+	font-size: 18px;
+}
+.person_login-ungle{
+	color: blue;
+	font-size: 20px;
+	background: #ccc;
+}
+/* settings */
+.settings{
+	padding: 50px 0;
+}
+.mypage__title{
+	text-align: center;
+}
+/* unreg */
+.unreg__title{
+	text-align: center;
+}
+.unreg__body{
+	background: pink;
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	margin: 0 auto;
+	align-items: center;
+	padding: 50px;
+	gap: 15px;
+}
+.unreg__body a{
+	padding: 10px;
+	background: hotpink;
+	color: #fff;
+}
+/* main */
+.main__wrapper{
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	gap: 40px;
+}
+/* news */
+.news{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.news-item{
+	background: hotpink;
+}
+/* sidebar */
+.sidebar__ul{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.sidebar__list {
+	background: aqua;
+}
+/* myposts */
+.posts__myposts{
+	margin-top: 100px;
+}
+/**/
+.hello{
+	margin-bottom: 30px;
+}
